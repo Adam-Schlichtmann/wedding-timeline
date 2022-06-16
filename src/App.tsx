@@ -1,5 +1,4 @@
 import React from "react";
-import { Router } from "react-router-dom";
 import { History } from "history";
 import {
   VerticalTimeline,
@@ -56,12 +55,29 @@ function App({
         iconStyle={{ background: "#809DBD", color: "#fff" }}
       >
         <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
-          Friday 12:00 pm - 1:00 pm
+          Friday 10:30 am
+        </h3>
+        <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>Golf</h4>
+        <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
+          Prariewood Golf Course
+        </p>
+        <MapLink address='22 Prairiewood Dr S, Fargo, ND 58103' />
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: "#809DBD", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #809DBD" }}
+        iconStyle={{ background: "#809DBD", color: "#fff" }}
+      >
+        <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
+          Friday 12:30 pm - 2:00 pm
         </h3>
         <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>
           Lunch
         </h4>
-        <MapLink address='TBD' />
+        <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
+          JL Beers
+        </p>
+        <MapLink address='4240 32nd Ave S, Fargo, ND 58104' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: "#809DBD", color: "#fff" }}
@@ -71,9 +87,8 @@ function App({
         <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
           Friday Afternoon
         </h3>
-
         <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>
-          Gold? Smash? Breweries? IDK
+          Smash? Breweries? IDK
         </h4>
         <MapLink address='TBD' />
       </VerticalTimelineElement>
@@ -124,9 +139,9 @@ function App({
           Brunch
         </h4>
         <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
-          Franks Lounge
+          Traditions Restaurant & Bar
         </p>
-        <MapLink address='2640 52nd Ave S, Fargo, ND 58104' />
+        <MapLink address='3330 Sheyenne St Suite 116, West Fargo, ND 58078' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: "#809DBD", color: "#fff" }}
@@ -134,7 +149,7 @@ function App({
         iconStyle={{ background: "#809DBD", color: "#fff" }}
       >
         <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
-          Saturday 11:00 am - 12:30 pm
+          Saturday 11:00 am - 12:00 pm
         </h3>
         <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>
           Getting Dressed
@@ -143,6 +158,22 @@ function App({
           Adam's House
         </p>
         <MapLink address='6226 57th Ave S. Fargo ND, 58104' />
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: "#809DBD", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #809DBD" }}
+        iconStyle={{ background: "#809DBD", color: "#fff" }}
+      >
+        <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
+          Saturday 12:00 pm - 12:30 pm
+        </h3>
+        <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>
+          Drive Time
+        </h4>
+        <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
+          Adam's House to Hilton Garden Inn to Museum
+        </p>
+        <MapLink address='4351 17th Ave S, Fargo, ND 58103' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: "#809DBD", color: "#fff" }}
@@ -190,9 +221,8 @@ function App({
           Ceremony
         </h4>
         <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
-          Plains Art Museum{" "}
+          Plains Art Museum
         </p>
-
         <MapLink address='704 1st Ave N, Fargo, ND 58102' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -209,7 +239,22 @@ function App({
         <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
           Plains Art Museum
         </p>
-
+        <MapLink address='704 1st Ave N, Fargo, ND 58102' />
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: "#809DBD", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #809DBD" }}
+        iconStyle={{ background: "#809DBD", color: "#fff" }}
+      >
+        <h3 style={{ fontSize: 24, color: "#fff", margin: "8px 0px" }}>
+          Saturday 4:00 pm - 4:30 pm
+        </h3>
+        <h4 style={{ fontSize: 20, color: "#fff", margin: "4px 0px" }}>
+          Family Pictures
+        </h4>
+        <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
+          Plains Art Museum
+        </p>
         <MapLink address='704 1st Ave N, Fargo, ND 58102' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -242,9 +287,7 @@ function App({
         <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
           Hilton Garden Inn
         </p>
-        <p style={{ fontSize: 16, color: "#fff", margin: "2px 0px" }}>
-          4351 17th Ave S, Fargo, ND 58103
-        </p>
+        <MapLink address='4351 17th Ave S, Fargo, ND 58103' />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         contentStyle={{ background: "#809DBD", color: "#fff" }}
